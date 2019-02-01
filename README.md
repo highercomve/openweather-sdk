@@ -2,7 +2,16 @@ Open Weather API SDK
 =====================
 
 ```bash
-npm i openweathermap-sdk
+npm i openweather-sdk
+```
+
+### How to use it as a CLI
+
+```bash
+npm install --global openweather-sdk
+
+## that will create a new command to get weather
+weather --help
 ```
 
 ### How use it example
