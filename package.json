@@ -1,6 +1,6 @@
 {
   "name": "openweather-sdk",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Package to use openweather api",
   "main": "src/index.js",
   "repository": "https://github.com/highercomve/openweather-sdk",
@@ -10,7 +10,8 @@
     "weather": "./bin/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^10.12.21",
