@@ -1,0 +1,24 @@
+{
+  "name": "openweather-sdk",
+  "version": "0.0.1",
+  "description": "Package to use openweather api",
+  "main": "src/index.js",
+  "repository": "https://github.com/highercomve/openweather-sdk",
+  "author": "Sergio Marin",
+  "license": "MIT",
+  "bin": {
+    "weather": "./bin/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.21",
+    "typedoc": "^0.14.2",
+    "typescript": "^3.3.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "commander": "^2.19.0"
+  }
+}
